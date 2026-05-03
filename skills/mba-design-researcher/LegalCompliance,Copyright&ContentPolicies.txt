@@ -1,0 +1,89 @@
+Knowledge Base: Legal Compliance, Copyright & Content Policies (2025)
+
+**System Context:** This knowledge base governs the safety and compliance of Amazon Merch on Demand listings. It acts as a set of **Negative Constraints**. Any generated text (Titles, Bullets, Descriptions, Brand Names) MUST be cross-referenced against these rules. Violation of these rules leads to account suspension.
+
+---
+
+## Part 1: The "Kill List" (Prohibited Keywords & Phrases)
+
+**Directive:** The following terms are strictly prohibited in **all** listing fields. They trigger automated rejection algorithms.
+
+### 1. English Prohibited Terms (Global)
+*   **Promotional & Fulfillment:** free shipping, prime shipping, satisfaction guaranteed, money back, refund, returns, risk free, easy returns, limited quantities, ships in, ready to ship, arrive faster, best seller, closeout, special offer, on sale, discount, cheap, bargain, free gift, bonus, buy now.
+*   **Quality Claims (Subjective):** high quality, premium, top rated, best quality, durable, soft, thick, heavy duty, professional quality, award winning, 100% quality, guarantee.
+*   **Product Attributes (Physical):** t-shirt, shirt, tee, hoodie, apparel (Amazon adds these automatically; do not repeat). Also: fitted, looser, size up, bigger size, maternity, made in [country], sizing, material.
+*   **Misleading Print Effects (CRITICAL):**
+    *   *Reason:* DTG printing cannot produce these textures.
+    *   *Keywords:* neon, glitter, sparkle, sparkling, glow in the dark, glow effect, glows in black light, metallic, foil, rose gold, gold, silver, bronze, sequin, texture, textured, wood, metal, marble, gem, diamond, holographic, 3D, embroidered.
+*   **Profanity & Offensive:** fuck, bitch, btch, shit, dick, penis, wtf, af, s@#t (masked profanity is also banned).
+*   **Restricted Brands/Terms:** popsocket, pop socket (Trademarked), velcro, onesie, Chapstick.
+
+### 2. International Banned Lists (Marketplace Specific)
+When generating content for non-US marketplaces, strictly filter these terms:
+
+*   **German (DE):** bewertung (review), geschenk (gift), versand (shipping), kostenlos (free), passform (fit), qualität (quality), leder (leather), samt (velvet), glitzer (glitter), leuchtend (glowing), neon, metallic, gold.
+*   **French (FR):** livraison gratuite (free shipping), qualité (quality), retour (return), cadeau (gift), néon, paillettes (glitter), or (gold), argent (silver), cuir (leather), fourrure (fur), brillant (shiny).
+*   **Italian (IT):** spedizione gratuita (free shipping), alta qualità (high quality), recensione (review), regalo (gift), neon, glitter, metallico, oro (gold), pelle (leather), velluto (velvet).
+*   **Spanish (ES):** envío gratis (free shipping), alta calidad (high quality), regalo (gift), neón, purpurina (glitter), metálico, oro (gold), cuero (leather), terciopelo (velvet).
+
+---
+
+## Part 2: Intellectual Property (IP) Protocol
+
+**Directive:** Zero tolerance for IP infringement. If a phrase or image is owned by a third party, it cannot be used.
+
+### 1. Trademarks (Text)
+*   **Rule:** Never use brand names, taglines, or slogans owned by others.
+*   **The "Future-Dating" Risk:** Common phrases can be trademarked *after* you upload.
+*   **Validation Tool:** All phrases must be checked against the **USPTO TESS** database (United States Patent and Trademark Office) and **EUIPO** (Europe).
+*   **Class 025:** Pay specific attention to trademarks registered in International Class 025 (Clothing/Apparel).
+*   **Parody/Fair Use:** Do **not** attempt parody. Amazon's takedown system is automated and does not recognize "Fair Use" defenses.
+
+### 3. Copyright (Creative Works)
+*   **Prohibited Entities:** Disney, Marvel, Star Wars, Harry Potter, DC Comics, Nintendo, Hello Kitty, Bandai.
+*   **Celebrity Likeness:** Do not use names or images of celebrities, musicians, or politicians.
+*   **Lyrics/Quotes:** Song lyrics and movie quotes are protected by copyright. Do not use them.
+*   **Viral Memes:** Most memes are copyrighted or trademarked by their original creators (e.g., "Grumpy Cat").
+
+---
+
+## Part 3: Restricted Categories & "Trigger Words"
+
+**Directive:** Certain keywords trigger "Pesticide" or "Safety" bots that immediately suppress listings.
+
+### 1. The Pesticide Trigger List (High Risk)
+Amazon’s bots aggressively police products making unproven health/safety claims. Using these words (even in a joke, e.g., "Repellent to idiots") will ban the listing.
+*   **Banned Keywords:** Antimicrobial, Antibacterial, Antifungal, Antiseptic, Disinfectant, Repellent, Insecticide, Germ, Virus, Bacteria, Non-toxic, Safe, Harmless, Eco-friendly, Biodegradable, BPA free, Hypoallergenic, Therapeutic, Cure, Heal, Treatment, Remedy, Detoxify.
+
+### 2. Youth Policy (Children's Sizes)
+If "Youth" size is selected, the design and text MUST be "G-Rated."
+*   **Strictly Prohibited on Youth:** Profanity, Sexual content/innuendo, Drugs (cannabis, alcohol, tobacco), Violence (guns, blood, death, skulls - unless cartoonish), Political content.
+*   **Action:** If the design contains edgy humor or alcohol references, uncheck the "Youth" box during upload.
+
+### 3. Sensitive Events & Politics
+*   **Tragedy:** No content related to human tragedies, mass shootings, or natural disasters.
+*   **Politics:** No content promoting hate speech, sedition, or illegal acts.
+
+---
+
+## Part 4: Listing Formatting Rules
+
+**Directive:** Content must be professional and readable. Amazon penalizes "spammy" formatting.
+
+1.  **No Keyword Stuffing:** Do not list keywords as a block (e.g., "shirt gift present dad"). Use natural sentences.
+2.  **Capitalization:** Do not use ALL CAPS for titles or bullets. Use Title Case (Capitalize First Letter of Each Word).
+3.  **Special Characters:** Do not use emojis 😃, or excessive punctuation (!!!, ???, ***, @, #, $).
+4.  **No External Links:** Do not include URLs, email addresses, or social media handles.
+5.  **No Solicitations:** Do not ask for reviews or feedback in the bullet points.
+
+---
+
+## Part 5: Compliance Checklist for LLM Generation
+
+Before outputting any listing text, the LLM must run this internal validation loop:
+
+1.  **Scan for Banned Words:** Does the text contain "Free Shipping," "High Quality," "Neon," "Glitter," or "Gift"? -> **REMOVE**.
+2.  **Scan for Pesticides:** Does the text contain "Antimicrobial," "Safe," or "Eco-friendly"? -> **REMOVE**.
+3.  **Scan for IP:** Does the text mention "Disney," "Star Wars," or famous people? -> **REMOVE**.
+4.  **Check Formatting:** Are there emojis or ALL CAPS? -> **FIX**.
+5.  **Context Check:** If the listing is for a "Youth" shirt, is there alcohol or violence mentioned? -> **FLAG AS ADULT ONLY**.

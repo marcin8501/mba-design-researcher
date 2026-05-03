@@ -1,0 +1,121 @@
+Here is a comprehensive knowledge base specifically structured for an LLM to understand and execute tasks related to Amazon Merch SEO and the A10 Algorithm.
+
+***
+
+# Knowledge Base: Amazon Merch SEO & The A10 Algorithm (2025 Edition)
+
+**System Context:** This knowledge base governs the optimization of print-on-demand listings for Merch by Amazon. It defines the transition from the legacy A9 algorithm to the current A10 paradigm, detailed keyword taxonomies, and strict copywriting formulas for Titles, Brand Names, and Bullet Points.
+
+---
+
+## Part 1: The A10 Algorithm Paradigm
+**Core Philosophy:** The A10 algorithm shifts focus from raw sales velocity (A9) to **Customer Relevance**, **Seller Authority**, and **External Traffic**. It is designed to reward "Good Actors" who provide high-quality customer experiences.
+
+### The 4 Ranking Pillars
+1.  **Relevance (Contextual over Exact Match):**
+    *   The algorithm uses **Latent Semantic Indexing (LSI)** to understand relationships between words (e.g., it knows "angler" and "lure" relate to "fishing").
+    *   **Instruction:** Do not keyword stuff. Listing copy must be natural and grammatically correct. The algorithm suppresses listings that appear "spammy" or unreadable.
+2.  **Performance (Conversion is King):**
+    *   **Click-Through Rate (CTR):** The percentage of people who click the listing from search results.
+    *   **Conversion Rate (CR):** The percentage of visitors who buy. A10 prioritizes listings with high CR over those with high traffic but low sales.
+    *   **Sales History:** Consistent sales history is weighted heavily.
+3.  **Seller Authority:**
+    *   While Merch sellers lack a traditional "Seller Score," authority is determined by **Account Health** (lack of rejections/IP strikes), **Sales Consistency**, and **Portfolio Quality** (ratio of selling designs to dead designs).
+4.  **External Traffic (The "Off-Amazon" Boost):**
+    *   Traffic driven from outside Amazon (Google, Social Media, Blogs) is weighted significantly higher than internal traffic.
+    *   **Instruction:** Descriptions should be written to rank on Google (SEO), as Amazon's internal search gives credit for external inbound clicks.
+
+---
+
+## Part 2: Keyword Strategy & Taxonomy
+**Objective:** Move beyond generic "Short-Tail" keywords to "Long-Tail" phrases that signal high purchase intent.
+
+### Keyword Classification
+*   **Root Keywords (Short-Tail):** Broad, high-volume, low-intent.
+    *   *Example:* "Fishing shirt".
+*   **Long-Tail Keywords:** Specific, multi-word phrases (3+ words), lower volume, high conversion.
+    *   *Example:* "Funny bass fishing shirt for dad".
+*   **Audience Keywords:** Defines who the product is for.
+    *   *Examples:* Mom, Grandpa, Nurse, Gamer, Teacher.
+*   **Occasion Keywords:** Defines when the product is gifted/worn.
+    *   *Examples:* Christmas, Father's Day, Retirement, Back to School.
+*   **LSI Keywords:** Thematically related terms that prove depth of relevance.
+    *   *Examples (for Fishing):* Angler, reel, rod, lake, boat, bait.
+
+### Backend Search Terms (Hidden Keywords)
+*   **Capacity:** Max **250 bytes** (not characters).
+*   **Content:** Use this space for synonyms, alternate spellings (color/colour), common misspellings, and Spanish/French translations for the US market.
+*   **Rules:**
+    *   **No Repetition:** Do not repeat words already in the Title or Bullets; Amazon already indexes those.
+    *   **No Commas:** Separate words with spaces only.
+    *   **No Prohibited Words:** No brand names (Nike), no "sale," no "best quality".
+
+---
+
+## Part 3: Listing Optimization Formulas
+**Constraint:** Merch by Amazon interfaces often have stricter character limits than Seller Central. Focus on mobile optimization (first 80 characters of title, first 3 bullets).
+
+### 1. Title Strategy (The Hook & Filter)
+**Limit:** 60 Characters recommended for full visibility, though up to 200 allowed. Mobile cuts off after ~80 characters.
+**Rule:** Do not include "T-Shirt," "Tee," or "Apparel." Amazon adds these automatically.
+**Formula:**
+`[Primary Niche/Quote Keyword] + [Audience/Theme Keyword] + [Occasion/Gift Keyword]`
+
+> **Examples:**
+> *   *Humor:* "I'd Rather Be Fishing Funny Dad Gift" (35 chars).
+> *   *Niche:* "Oncology Nurse Squad Halloween Party" (36 chars).
+> *   *Quote:* "This Beard Is Taken Funny Fathers Day" (36 chars).
+
+### 2. Brand Name Strategy (The Grouping Signal)
+**Strategy:** Use a "Hybrid Brand" approach. Combine a unique identifier with a niche keyword to allow cross-selling via the "Brand Link."
+**Formula:**
+`[Memorable/Alliterative Name] + [Primary Niche Keyword]`
+
+> **Examples:**
+> *   "Walleye Wear Fishing Gifts"
+> *   "Code & Coffee Programmer Humor".
+
+### 3. Bullet Points (The Conversion Engine)
+**Focus:** Benefit-driven copy. Answer: Who is it for? Why buy it? Where to wear it?
+**Format:** Fragment sentences. Capitalize the first letter. No keyword stuffing.
+
+*   **Bullet 1 Formula (Who & Why):**
+    `[Power Word] for [Audience Keyword]. Perfect for [Occasion Keyword] or as a gift for [Niche Enthusiast] who loves [Activity].`
+    *   *Example:* "Hilarious gift for any dad who loves fishing. Perfect for Father's Day, birthdays, or for the angler who tells tall tales about the one that got away.".
+
+*   **Bullet 2 Formula (What & Where + Cross-Sell):**
+    `Featuring [Design Attribute], this is great for wearing to [Location/Event]. Click our brand name for more [Niche Keyword] apparel.`
+    *   *Example:* "Featuring a vintage distressed graphic, this is great for wearing on the boat, at the cabin, or the BBQ. Click our brand name for more funny fishing gear.".
+
+### 4. Product Description (The External SEO Asset)
+**Goal:** Rank on Google.
+**Strategy:** Write a natural, cohesive paragraph (3-4 sentences) utilizing LSI keywords and synonyms that didn't fit in the bullets.
+*   *Example:* "Whether you are a seasoned pro at the lake or just enjoy casting a line, this design captures the spirit of the sport. A fantastic present for the husband or grandfather passionate about angling.".
+
+---
+
+## Part 4: Compliance & Negative Constraints
+**CRITICAL:** Violation of these rules triggers rejection algorithms ("robots") or manual takedowns.
+
+### Prohibited Keywords (The "Never Use" List)
+*   **Promotional:** Free, Sale, Discount, Best Seller, Hot, Cheap, Bargain.
+*   **Quality Claims:** Premium, High Quality, Soft, Durable (Do not describe the physical shirt, only the design).
+*   **Fulfillment:** Free Shipping, Prime, Delivery, Returns, Ships Fast.
+*   **Print Effects (Misleading):** Neon, Glitter, Glow in the Dark, Metallic, Foil, Sparkle, 3D, Embroidered (Unless it is a literal photo of the effect, but text claims are high risk).
+*   **Restricted Categories:** Antibacterial, Antimicrobial (triggers pesticide bot), Velcro, Onesie (Trademarked terms).
+
+### Intellectual Property (IP)
+*   **Rule:** Never use third-party trademarks (Disney, Nike, Star Wars) or celebrity names.
+*   **Youth Policy:** No profanity, violence, drugs, alcohol, or sexual content on *Youth* sizes. If the design contains these, uncheck the "Youth" box.
+
+---
+
+## Part 5: Execution Checklist for LLM Generation
+When generating a listing, the LLM must follow this sequence:
+1.  **Analyze Design:** Identify the Niche, Audience, and Theme.
+2.  **Generate Keywords:** Create a list of 1 Root, 3 Long-Tail, and 5 LSI keywords.
+3.  **Check Compliance:** Scan keywords against the "Prohibited List" (Part 4).
+4.  **Draft Title:** Apply the `[Primary] + [Audience] + [Occasion]` formula (max 60 chars).
+5.  **Draft Brand:** Apply the Hybrid Brand formula.
+6.  **Draft Bullets:** Write benefit-driven copy using LSI keywords, ensuring no repetition of the Title's exact phrasing.
+7.  **Draft Backend:** Fill remaining relevant synonyms (no commas).
